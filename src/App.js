@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
